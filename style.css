@@ -24,7 +24,7 @@ body {
   font-size: large;  
   height: 100%;
   margin: 0;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 ul, p {
