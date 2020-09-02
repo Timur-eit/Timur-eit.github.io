@@ -16,11 +16,34 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans',
     'Droid Sans', 'Helvetica Neue', sans-serif;
   background: url('./img/background.jpg') no-repeat;
+  /* background-color:#05ac6b; */
+  background-color: #106369;
+  background-size: cover;  
   background-position: 0px -15px, center;
   color:black;
-  font-size: large;
-  line-height: normal;
+  font-size: large;  
+  height: 100%;
+  margin: 0;
+  font-weight: bold;
 }
+
+ul, p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.content {  
+  flex: 1 0 auto
+}
+
 
 h1, h2 {
   margin-top: 0;
@@ -29,11 +52,12 @@ h1, h2 {
 
 .container {
   border-bottom: 2px solid black;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: #d2d2d2d6;
+  /* background-color: red; */
+  /* opacity: 0.2; */
   margin-bottom: 10px;
   padding: 10px;
 }
-
 
 .greeting {
   display: flex;
@@ -53,10 +77,6 @@ h1, h2 {
   flex-wrap: wrap;  
 }
 
-.portfolio {
-  margin-bottom: 150px;
-}
-
 .sample {
   margin-right: 10px;
   font-size: small;
@@ -73,42 +93,44 @@ a:visited, a:link {
   text-decoration: none;
 }
 
-
-.sample:hover {
-  bottom: 5px;
-  background-color: #053e4dd9;
-  color: white;
-}
-
 .sample__image {
   width: 90px;
   height: 90px;
   border-radius: 6px;
 }
 
+.sample:hover {  
+  top: 3px;
+  right: 3px;
+  font-weight: bold;
+}
 
 .footer {
   display: flex;
-  background-color: #a7a35ba1;
+  background-color: black;
   height: 40px;
   border-radius: 6px;
+  /* position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%; */
+  flex: 0 0 auto;
 }
 
-.footer a {
-  color:#00000087;
+.footer a { 
+  color: white;
   flex-grow: 1;
   height: inherit;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-weight: bold;
 }
 
 .footer a:hover {
-  color: white;
-  background-color: #053e4dd9;
+  color: black;
+  background-color: lightgrey;
   border-radius: 6px;
-
-
 }
 
 
