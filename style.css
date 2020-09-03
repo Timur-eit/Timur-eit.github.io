@@ -18,10 +18,10 @@ body {
   background: url('./img/background.jpg') no-repeat;
   /* background-color:#05ac6b; */
   background-color: #106369;
-  background-size: cover;  
+  background-size: cover;
   background-position: 0px -15px, center;
   color:black;
-  font-size: large;  
+  font-size: large;
   height: 100%;
   margin: 0;
   /* font-weight: bold; */
@@ -40,7 +40,7 @@ ul, p {
   margin: 0 auto;
 }
 
-.content {  
+.content {
   flex: 1 0 auto
 }
 
@@ -74,7 +74,7 @@ h1, h2 {
 
 .samples {
   display: flex;
-  flex-wrap: wrap;  
+  flex-wrap: wrap;
 }
 
 .sample {
@@ -99,7 +99,7 @@ a:visited, a:link {
   border-radius: 6px;
 }
 
-.sample:hover {  
+.sample:hover {
   top: 3px;
   right: 3px;
   font-weight: bold;
@@ -109,7 +109,6 @@ a:visited, a:link {
   display: flex;
   background-color: black;
   height: 40px;
-  border-radius: 6px;
   /* position: absolute;
   left: 0;
   bottom: 0;
@@ -117,7 +116,7 @@ a:visited, a:link {
   flex: 0 0 auto;
 }
 
-.footer a { 
+.footer a {
   color: white;
   flex-grow: 1;
   height: inherit;
@@ -131,6 +130,8 @@ a:visited, a:link {
   color: black;
   background-color: lightgrey;
   border-radius: 6px;
+  padding: 2px;
+  margin: -2px;
 }
 
 
